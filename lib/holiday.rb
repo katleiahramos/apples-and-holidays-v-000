@@ -80,7 +80,6 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_s_caps = holiday_s.collect { |word| word.capitalize!  }
         holiday_s.join
         binding.pry
-    end
   end
   end
 end
