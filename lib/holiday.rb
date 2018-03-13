@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
       elsif holiday_s.length > 1
         holiday_s_caps = holiday_s.collect { |word| word.capitalize!  }
         holiday_s.join
-        holiday_
+        binding.pry
     end
   end
   end
