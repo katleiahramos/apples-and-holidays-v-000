@@ -53,6 +53,10 @@ def all_winter_holiday_supplies(holiday_hash)
     if season == "winter"
     season.each do |day, supplies|
       supplies_array << supplies
+    end
+  end
+end
+
 
 end
 
