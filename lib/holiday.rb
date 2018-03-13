@@ -75,10 +75,8 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_s = holiday.to_s.split(' ')
       if holiday_s.length == 1
         puts "holiday_s"
-      elsif holiday_s.length > 1
         holiday_s.each do |word|
-        word.capitalize!
-      end
+        word.capitalize! 
         binding.pry
         holiday_s.join
       puts "#{holiday_s}:"
