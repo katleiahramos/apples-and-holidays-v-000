@@ -3,7 +3,7 @@ describe "holiday_supplies_hash" do
   let(:holiday_supplies) {
     {
       :winter => {
-        :christmas => ["Lights", "Wreath"],
+        #:christmas => ["Lights", "Wreath"],
         :new_years => ["Party Hats"]
       },
       :summer => {
@@ -110,6 +110,7 @@ describe "holiday_supplies_hash" do
 
       @output = <<-TEXT
 Winter:
+  Christmas: Lights, Wreath
   New Years: Party Hats
 Summer:
   Fourth Of July: Fireworks, BBQ
