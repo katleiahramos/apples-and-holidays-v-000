@@ -55,6 +55,7 @@ def all_winter_holiday_supplies(holiday_hash)
       supplies_array << supplies
     end
   end
+  supplies_array
 end
 
 
