@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       holiday_s = holiday.to_s.split(' ')
       if holiday_s.length == 1
-        puts "holiday_s"
+        puts holiday_s
       if holiday_s > 1
         holiday_s.each do |word|
         word.capitalize!
@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
   end
   end
 end
-end 
+end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
