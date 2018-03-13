@@ -74,6 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies|
       holiday_s = holiday.to_s.split(' ')
       if holiday_s.length == 1
+        holiday_s.to_s
         binding.pry
         puts "#{holiday_s.capitalize!}"
       if holiday_s > 1
