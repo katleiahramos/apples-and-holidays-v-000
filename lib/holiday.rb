@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     holidays.each do |holiday, supplies|
       binding.pry
-      holiday_s = holiday.split(' ')
+      holiday_s = holiday.to_s.split(' ')
       holiday_s.each do |word|
         word.capitalize!
       end
